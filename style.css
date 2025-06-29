@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  color: #c62828;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+footer img {
+  margin: 0 5px;
+}
+
+img.rounded-circle {
+  border: 3px solid #c62828;
+}
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-hero {
+  background-image: url("assets/wa.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+}
+
+.btn-danger {
+  background-color: #c62828;
+  border-color: #c62828;
+}
+
+.btn-danger:hover {
+  background-color: #b71c1c;
+  border-color: #b71c1c;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+form input,
+form textarea,
+form select {
+  margin-bottom: 1rem;
+}
+
+form label {
+  font-weight: 500;
+  color: #c62828;
+}
+
+.login-page {
+  min-height: 100vh;
+  background: url("assets/wa.jpeg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}

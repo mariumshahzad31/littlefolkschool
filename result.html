@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Result Little Folks School</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-white text-dark">
+    <header class="bg-danger text-white py-4 text-center">
+      <div class="container">
+        <p class="fw-bold fs-1">Check Student Result</p>
+        <p class="lead">Enter your roll number to view your result</p>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card shadow p-4">
+            <div class="mb-3">
+              <label
+                for="rollNumberInput"
+                class="form-label text-danger fw-bold"
+                >Roll Number:</label
+              >
+              <input
+                type="text"
+                id="rollNumberInput"
+                class="form-control border-danger"
+                placeholder="Enter your Roll Number"
+                required
+              />
+            </div>
+            <div class="d-grid">
+              <button id="checkBtn" class="btn btn-danger">Check Result</button>
+            </div>
+            <div id="result-box" class="mt-4"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-danger text-white py-4 mt-5">
+      <div class="container text-center">
+        <p>School Address: 123 Main Street, Karachi, Pakistan.</p>
+        <p>Phone: (123) 456-7890 | Email: info@littlefolkschool.edu.pk</p>
+        <p>&copy; 2025 Little Folks School. All Rights Reserved.</p>
+        <div class="mt-2">
+          <img
+            src="assets/facebook.png"
+            alt="facebook"
+            width="24"
+            class="mx-1"
+          />
+          <img
+            src="assets/instagram.png"
+            alt="instagram"
+            width="24"
+            class="mx-1"
+          />
+          <img
+            src="assets/linkedin.png"
+            alt="linkedin"
+            width="24"
+            class="mx-1"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
